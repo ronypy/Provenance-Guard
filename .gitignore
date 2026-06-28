@@ -1,0 +1,26 @@
+# Secrets — never commit
+.env
+
+# Virtual environments
+.venv/
+venv/
+.codepath_AI201_venv/
+
+# Runtime data (audit log + content store) — keep the logs/ dir, ignore its data files
+logs/audit.jsonl
+logs/content_store.json
+logs/content_store.json.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# The project spec screenshot (not part of the deliverable)
+screencapture-*.png
