@@ -367,22 +367,6 @@ instances:
 
 ---
 
-## Portfolio walkthrough
-
-> A short walkthrough video (a couple of minutes) is part of the submission and needs to be
-> recorded separately. Suggested ~2-minute script using this repo:
-
-1. **Submit clearly-AI text** → show `likely_ai` + the 🤖 label and the three signal scores.
-2. **Submit clearly-human text** → show `likely_human` + the ✍️ label, and contrast the
-   confidence with the AI case.
-3. **Submit a borderline case** → show it land in `uncertain` and explain *why honest
-   uncertainty matters* (false positives are worse on a writing platform).
-4. **Appeal** the human result with its `content_id` → show `status: under_review`.
-5. **`GET /log`** → show the structured audit trail including the appeal.
-6. **Fire the 12-request loop** → show `200×10` then `429` to demonstrate rate limiting.
-
----
-
 ## Project layout
 
 ```
